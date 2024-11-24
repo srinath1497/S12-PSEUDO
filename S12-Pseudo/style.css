@@ -1,0 +1,79 @@
+h1::first-letter{
+
+    color: red;
+    font-size: 3rem;
+}
+
+p::first-letter{
+    color: aqua;
+    font-size: 1.5rem;
+}
+
+ul li::marker{
+    content:"👪"
+}
+
+p::selection{
+    background-color: brown;
+    color: crimson;
+}
+
+h1::before{
+    content:"🐳"
+
+}
+
+h1::after{
+    content:"🌋"
+}
+
+a{
+    font-size: 2rem;
+}
+
+a:link{
+    color:darkcyan
+}
+
+a:visited{
+    color: darkmagenta;
+}
+
+
+a:hover{
+    background-color: darkgreen;
+    color: gold;
+}
+
+a:active{
+    color: beige;
+    background-color: chartreuse;
+}
+
+p:hover{
+    background-color: greenyellow;
+}
+
+img{
+    width: 300px;
+    border: 2px solid black;
+}
+
+
+img:hover{
+   /*box-shadow: 10px 10px 10px black; */
+   /*filter: drop-shadow(10px 10px 10px black);*/
+   /*filter:invert(100%);*/
+
+}
+
+body{
+    background-color: brown;
+
+}
+
+iframe{
+    width: 500px;
+    height: 500px;
+}
+
